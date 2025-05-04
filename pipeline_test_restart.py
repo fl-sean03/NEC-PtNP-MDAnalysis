@@ -32,37 +32,22 @@ def main():
     print("Loaded configuration.")
 
     # Define the steps and their corresponding done files
+    # Define the steps and their corresponding done files
     steps = [
         {
             "name": "Simulation Info",
             "script": "simulation_info.py",
             "done_file": "simulation_info.done",
-            "command": [
-                sys.executable, os.path.join("src", "simulation_info.py"),
-                "--psf", config.psf_file,
-                "--dcd", config.dcd_file,
-                "--steps-per-frame", str(config.steps_per_frame),
-                "--output-dir", config.sim_info_output_dir
-            ]
         },
         {
             "name": "Pt Classification",
             "script": "classify_pt_atoms.py",
             "done_file": "pt_classification.done",
-            "command": [
-                sys.executable, os.path.join("src", "classify_pt_atoms.py"),
-                "--psf", config.psf_file,
-                "--dcd", config.dcd_file,
-                "--output-dir", config.pt_classification_output_dir,
-                "--prefix", config.pt_classification_prefix,
-                "--r-max", str(config.pt_classification_r_max),
-                "--nbins", str(config.pt_classification_nbins)
-            ],
             "optional_args": [
                 ("frame_index", config.pt_classification_frame_index),
                 ("min_frame", config.pt_classification_min_frame),
                 ("max_frame", config.pt_classification_max_frame),
-                ("use-cutoff", config.pt_classification_use_cutoff),
+                ("use_cutoff", config.pt_classification_use_cutoff),
             ],
             "flag_args": [
                 ("plot_rdf", config.pt_classification_plot_rdf),
@@ -70,63 +55,33 @@ def main():
         },
         {
             "name": "Fragment Surface Analysis",
-            "script": "fragment_surface_analysis.py",
+            "script": "fragment_surface_analysis_test_restart.py", # Use the test script
             "done_file": "fragment_surface_analysis.done",
-            "command": [
-                sys.executable, os.path.join("src", "fragment_surface_analysis.py"),
-                "--psf", config.psf_file,
-                "--dcd", config.dcd_file,
-                "--pt-csv", config.pt_classification_csv,
-                "--output-dir", config.surface_analysis_output_dir,
-                "--resume"
-            ],
-            "optional_args": [
-               ("frame_index", config.fragment_surface_analysis_frame_index),
+             "optional_args": [
+                ("frame_index", config.fragment_surface_analysis_frame_index),
             ],
             "list_args": [
-               ("fragment-ids", config.fragment_surface_analysis_fragment_ids),
+                ("fragment_ids", config.fragment_surface_analysis_fragment_ids),
             ],
             "flag_args": [
-               ("verbose", config.fragment_surface_analysis_verbose),
-               ("all_atoms", config.fragment_surface_analysis_all_atoms),
+                ("verbose", config.fragment_surface_analysis_verbose),
+                ("all_atoms", config.fragment_surface_analysis_all_atoms),
             ]
         },
         {
             "name": "Filter Surface Fragments",
             "script": "filter_surface_fragments.py",
             "done_file": "filter_surface_fragments.done",
-            "command": [
-                sys.executable, os.path.join("src", "filter_surface_fragments.py"),
-                "--input-csv", config.surface_analysis_csv,
-                "--output-dir", config.surface_filtered_output_dir,
-                "--cutoff", str(config.filter_surface_fragments_cutoff)
-            ]
         },
         {
             "name": "Residence Event Analysis",
             "script": "residence_event_analysis.py",
             "done_file": "residence_event_analysis.done",
-            "command": [
-                sys.executable, os.path.join("src", "residence_event_analysis.py"),
-                "--filtered-csv", config.surface_filtered_csv,
-                "--sim-info-json", config.sim_info_json,
-                "--min-res-time", str(config.residence_event_analysis_min_res_time),
-                "--max-off-time", str(config.residence_event_analysis_max_off_time),
-                "--output-dir", config.residence_events_output_dir
-            ]
         },
         {
             "name": "Binding Metrics",
             "script": "binding_metrics.py",
             "done_file": "binding_metrics.done",
-            "command": [
-                sys.executable, os.path.join("src", "binding_metrics.py"),
-                "--residence_events_csv", config.residence_events_csv,
-                "--filtered_surface_csv", config.surface_filtered_csv, # Changed to use filtered surface CSV
-                "--simulation_properties_csv", config.sim_info_csv,
-                "--output_molecule_csv", config.binding_metrics_molecule_csv,
-                "--output_facet_csv", config.binding_metrics_facet_csv
-            ]
         }
     ]
 
@@ -138,8 +93,8 @@ def main():
     # Run the pipeline steps with checkpointing
     for step in steps:
         step_name = step["name"]
+        script_name = step["script"]
         done_file_path = os.path.join(done_dir, step["done_file"])
-        command = step["command"]
 
         print(f"\n--- Running {step_name} ---")
 
@@ -147,23 +102,75 @@ def main():
             print(f"Skipping {step_name}: Done file found at {done_file_path}")
             continue
 
+        # Construct the command dynamically
+        command = [
+            sys.executable, os.path.join("src", script_name)
+        ]
+
+        # Add arguments based on step name
+        if step_name == "Simulation Info":
+            command.extend([
+                "--psf", config.psf_file,
+                "--dcd", config.dcd_file,
+                "--steps-per-frame", str(config.steps_per_frame),
+                "--output-dir", config.sim_info_output_dir
+            ])
+        elif step_name == "Pt Classification":
+             command.extend([
+                "--psf", config.psf_file,
+                "--dcd", config.dcd_file,
+                "--output-dir", config.pt_classification_output_dir,
+                "--prefix", config.pt_classification_prefix,
+                "--r-max", str(config.pt_classification_r_max),
+                "--nbins", str(config.pt_classification_nbins)
+            ])
+        elif step_name == "Fragment Surface Analysis":
+            command.extend([
+                "--psf", config.psf_file,
+                "--dcd", config.dcd_file,
+                "--pt-csv", config.pt_classification_csv,
+                "--output-dir", config.surface_analysis_output_dir
+            ])
+        elif step_name == "Filter Surface Fragments":
+            command.extend([
+                "--input-csv", config.surface_analysis_csv,
+                "--output-dir", config.surface_filtered_output_dir,
+                "--cutoff", str(config.filter_surface_fragments_cutoff)
+            ])
+        elif step_name == "Residence Event Analysis":
+            command.extend([
+                "--filtered-csv", config.surface_filtered_csv,
+                "--sim-info-json", config.sim_info_json,
+                "--min-res-time", str(config.residence_event_analysis_min_res_time),
+                "--max-off-time", str(config.residence_event_analysis_max_off_time),
+                "--output-dir", config.residence_events_output_dir
+            ])
+        elif step_name == "Binding Metrics":
+             command.extend([
+                "--residence_events_csv", config.residence_events_csv,
+                "--filtered_surface_csv", config.surface_filtered_csv,
+                "--simulation_properties_csv", config.sim_info_csv,
+                "--output_molecule_csv", config.binding_metrics_molecule_csv,
+                "--output_facet_csv", config.binding_metrics_facet_csv
+            ])
+
         # Add optional arguments if they exist
         if "optional_args" in step:
             for arg_name, arg_value in step["optional_args"]:
                 if arg_value is not None:
-                    command.extend([f"--{arg_name}", str(arg_value)])
+                    command.extend([f"--{arg_name.replace('_', '-')}", str(arg_value)])
 
         # Add list arguments if they exist
         if "list_args" in step:
              for arg_name, arg_values in step["list_args"]:
                  if arg_values is not None:
-                     command.extend([f"--{arg_name}"] + [str(v) for v in arg_values])
+                     command.extend([f"--{arg_name.replace('_', '-')}"] + [str(v) for v in arg_values])
 
         # Add flag arguments if they exist and are True
         if "flag_args" in step:
             for arg_name, arg_value in step["flag_args"]:
                 if arg_value:
-                    command.append(f"--{arg_name}")
+                    command.append(f"--{arg_name.replace('_', '-')}")
 
         run_command(command)
 
@@ -174,9 +181,7 @@ def main():
             print(f"Created done file: {done_file_path}")
         except IOError as e:
             print(f"Error creating done file {done_file_path}: {e}")
-            # Decide how to handle this error - maybe exit or just warn?
-            # For now, we'll just print a warning.
-            pass
+            pass # Just print a warning for now.
 
 
     print("\n--- Pipeline finished successfully ---")

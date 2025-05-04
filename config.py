@@ -9,7 +9,7 @@ ANALYSIS_PARAMETERS = {
         # Base directory for input files (e.g., PSF, DCD)
         "base_input_dir": "data",
         # Base directory for all output files
-        "base_output_dir": "output/short", # Changed to output to output/short
+        "base_output_dir": "output/test3",
 
         # Input file paths relative to base_input_dir
         "psf_file": "short/0HPt.psf", # Pointing to data/short/0HPt.psf

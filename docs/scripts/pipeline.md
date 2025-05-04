@@ -35,7 +35,10 @@ The pipeline should:
 6.  Provide command-line arguments for specifying the configuration file to use.
 7.  Potentially, include options for running only a subset of the pipeline steps.
 
-The execution of individual scripts within `pipeline.py` can be achieved using Python's `subprocess` module or by importing the scripts as modules and calling their main functions (if they are designed to be importable). Using `subprocess` might be simpler given the current script structure which uses `argparse`.
+The execution of individual scripts within `pipeline.py` is achieved by dynamically constructing and running shell commands using Python's `subprocess` module, passing parameters from the `config.py` file as command-line arguments.
+## Checkpointing for `fragment_surface_analysis.py`
+
+The `fragment_surface_analysis.py` script includes built-in checkpointing functionality. It automatically detects if a partial output file (`surface_analysis.csv`) exists from a previous interrupted run. If a partial file is found, the script will automatically resume processing the molecular dynamics trajectory from the frame immediately following the last frame recorded in the existing file. This allows the pipeline to resume the most time-consuming step from where it left off without requiring specific handling or arguments from `pipeline.py` for resuming this particular script.
 
 The logical flow of the pipeline will be:
 
