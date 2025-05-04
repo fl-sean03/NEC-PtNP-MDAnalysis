@@ -1,0 +1,7 @@
+# Ignore output and data directories
+outputs/
+data/
+
+# Ignore Python cache and VS Code settings
+__pycache__/
+.vscode/

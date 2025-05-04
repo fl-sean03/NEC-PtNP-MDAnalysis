@@ -1,0 +1,3357 @@
+[
+  {
+    "fragment_id": 37,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.5330197300176245,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.644072330803628,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.523067653090036,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.339807993252393,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.1938268672539767,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.2205539833942947,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.222607100948768,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.1417151347428223,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.101453351221513,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 62,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.0416333611351942,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 3.3614221957641104,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.7709339515743525,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.224882659286411,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.2939350053170027,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.1425981758584225,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 84,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.298209122130109,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.107267204162287,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.028119848356828,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.836310491440014,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.4445202762522498,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.254712827885621,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.149061835089155,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.2797662520587414,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.3168409718222014,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 140,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1805164686838987,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.7051816269078426,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.661415926519173,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.648331077518576,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.6260657922681925,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.5844932979863326,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.5185545227992625,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.4981461323628014,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.0894651621154354,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 154,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.167865948228043,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 184,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.5677263016085896,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 184,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.4043669397656022,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 184,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.121810268921892,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 184,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.356253921915477,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.5545793418648826,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.5144237322929897,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.4976735151828624,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.4979415807826872,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.520926447104077,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.391746897661081,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.5232692817101143,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.219067950091058,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 189,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.418432305130126,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.215528518508965,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.1514317916925783,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.974254672289283,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.539347960978142,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.272604941716476,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.2526239995325086,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.157981544058798,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.119071795536254,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 226,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.0880558498455004,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.341971600216388,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.39737897836883,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.4517332247849764,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.4969071408697894,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.52697588766404,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.163951185204096,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.2777961751836235,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.10376287199171,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 234,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1904615412242365,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 3.1218780552011856,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.308286396689946,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.0034582747843697,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.164288646961027,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.234222968260836,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 279,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1569796083391286,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.8588965476535537,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.797624021608139,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.7084174278088398,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.552487392218859,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.4413224070546837,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.117629515985601,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.0862806667673466,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.176589814905166,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 304,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.242857085690053,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.5406324455317244,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.525060158148754,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.497528337626344,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.469537575883105,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.4792393816005767,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.222061638520152,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.165107781942881,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.046203082413146,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 306,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1089020813358164,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 319,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.267653923945113,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 319,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.463652012383244,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 319,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.298397385308803,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 319,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1297339742213914,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 342,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.3630581790950047,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 342,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.511621677139866,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 342,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.3254093218690146,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 342,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.538612093907362,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.4490757789279787,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.352703434080311,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 3.149732990683478,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 3.0688495522864416,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.9350607440256926,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.8175315070493374,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.8724717667428057,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.638897823669414,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 371,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.592777045020909,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.7841003869072574,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.732910840090612,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.622189528833116,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.456256542220778,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.443350659253136,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.4860438411626,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.3532731607774533,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2324764231760104,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 390,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.374282544431029,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.262099901698121,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.176277369374816,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.975967751164166,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.656485912413173,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.4369079902677253,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.150132426577466,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.0931302017108973,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.165246171916529,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 393,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.208416481469444,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.41934943243215,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.4783690894816965,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.522214239660781,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.554002060358261,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.5810612207100783,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.236291288482806,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.276612474675983,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2962752354896883,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 411,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1445863890754118,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.6506730895403883,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.6529810752470957,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.6380057765501865,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.564897934091896,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.5066515235022138,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.2385790959767498,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.2377730397847144,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2089205860888343,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 414,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.240363860582619,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 416,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.5344487360894834,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 416,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.4232198776207685,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 416,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.3410053042626866,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 416,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.252855130279546,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.281971482306441,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.3438976324923484,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.405275372435875,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.4847477098623663,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.5505182733947205,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.4887449675614715,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.467354470359564,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2100428316064717,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 432,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.284120339883406,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 433,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 3.3049249384398145,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 433,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.708051749181922,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 433,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.590423817004448,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 512,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.551035446018992,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 512,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.360398848814562,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 512,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.3333777724473728,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 512,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.2228573984100284,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.730358499798341,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.804413580156247,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.8599531947534564,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.678445853469805,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.581502826197782,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.4837555559808573,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.3935992621911644,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.5782306545721427,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 542,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.931342247771728,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.691129479463212,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.68705445623477,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.67611235928104,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.6429225078045437,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.608669908251088,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.338070070773061,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 570,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 3.452900601194617,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.47900317040078,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.3925482086080154,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 3.2588718858255965,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 3.0243327466874064,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.61979286835896,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.166008743706059,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.1819994035240784,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.189301029815792,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 657,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.2044710471225697,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.3225935408952845,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.3525465258637155,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.400274902293379,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.4496840623166234,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.499749505732421,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.381801732112358,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.432317267002747,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.3335995827853657,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 668,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.607454915927866,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 678,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 3.4462891787414063,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 678,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.6717382281574693,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 678,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.616213642927758,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.4116528178035943,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.409932246734321,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 3.2014105701209536,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.885565955013385,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.521566814038089,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.5243909538752085,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.4804271331892376,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.6229381609900093,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 695,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.4896777079432075,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 697,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.761376033392389,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 697,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.329852057110256,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 697,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.6600897361670155,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 697,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.3192922887616247,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.792005326848763,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.733106984439477,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.657324695571481,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.548030936404289,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.4805936485910265,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.0652236600868177,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.190210556651962,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2853667645654725,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 746,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.222975718066171,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.792286515986126,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.7680818354749133,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.6937979097157894,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.5267910119286263,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.493944750792328,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.2342925483251013,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.220818527448529,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.133347791900355,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 756,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.1390433309527266,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.795206114632863,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.704162326982807,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.635639807274803,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.5966634988187693,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.565728917020167,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.369112584397392,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.3247468007640038,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.546468795458272,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 760,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.237749176287945,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 852,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.4553171940242926,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 852,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.6987023287221974,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 852,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.496800385605862,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 852,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.469592384729023,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 3.2501718383535905,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 3.1885668681391603,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 3.057644810389701,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.754964301982413,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.516572356205648,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.2242040605088054,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.140112412693216,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.1479080696587607,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 864,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.2081861510187517,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "100 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.855532181623147,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.8569237133525727,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.8084844685322103,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.6985839593986025,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.5191624562192296,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.397098541044258,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.609455218981395,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.4250881026713618,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 879,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.5317139256238645,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.5099161637887075,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.539149363520893,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.559635444857236,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.586928295623627,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.612449013812429,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.2777236164200305,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.390545106131856,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2508108974957715,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 885,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.4089657009762915,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 890,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 3.024519415175386,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 890,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.7286973198726776,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 890,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.483699177474812,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 890,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.4850787889773,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "vertex": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.899977909017752,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.870398346928999,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.933304873727044,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.933672574471582,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.758758289159723,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.6839245447229074,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.2807960499407582,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.6156205616908528,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 905,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.440857888133087,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.401168224177612,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.417212660032463,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.4398907608075824,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.454933601538696,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.4723229972124576,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.274887753855232,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.311613230856021,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.1242298376345445,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 934,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.178114021220769,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 951,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.418212204426053,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 951,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.554383119667399,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 951,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.2004022296979224,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 951,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.232328344295665,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 0,
+    "cutoff": 3.5,
+    "min_distance": 2.714534679008528,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 1,
+    "cutoff": 3.5,
+    "min_distance": 2.6831588981178607,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 2,
+    "cutoff": 3.5,
+    "min_distance": 2.646891219723218,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 3,
+    "cutoff": 3.5,
+    "min_distance": 2.5685202363695443,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 4,
+    "cutoff": 3.5,
+    "min_distance": 2.489501143984655,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 5,
+    "cutoff": 3.5,
+    "min_distance": 2.28064656462356,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 6,
+    "cutoff": 3.5,
+    "min_distance": 2.122522152701472,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 7,
+    "cutoff": 3.5,
+    "min_distance": 2.196048842260988,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "edge": 1
+    }
+  },
+  {
+    "fragment_id": 958,
+    "frame_index": 8,
+    "cutoff": 3.5,
+    "min_distance": 2.167423186520395,
+    "total_atoms": 1,
+    "atoms_within_cutoff": 1,
+    "pt_classification_within_counts": {
+      "111 facet": 1
+    }
+  }
+]

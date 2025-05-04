@@ -1,0 +1,583 @@
+[
+  {
+    "fragment_id": 37,
+    "n_events": 0,
+    "total_residence_ns": 0.0,
+    "mean_event_ns": 0.0,
+    "events": []
+  },
+  {
+    "fragment_id": 62,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 84,
+    "n_events": 1,
+    "total_residence_ns": 0.005000000014907029,
+    "mean_event_ns": 0.005000000014907029,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.003000000008944217,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.005000000014907029
+      }
+    ]
+  },
+  {
+    "fragment_id": 140,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 154,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 184,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 189,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 226,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 234,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 279,
+    "n_events": 1,
+    "total_residence_ns": 0.005000000014907029,
+    "mean_event_ns": 0.005000000014907029,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.003000000008944217,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.005000000014907029
+      }
+    ]
+  },
+  {
+    "fragment_id": 304,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 306,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 319,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 342,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 371,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 390,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 393,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 411,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 414,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 416,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 432,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 433,
+    "n_events": 1,
+    "total_residence_ns": 0.002000000005962812,
+    "mean_event_ns": 0.002000000005962812,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.006000000017888434,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.002000000005962812
+      }
+    ]
+  },
+  {
+    "fragment_id": 512,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 542,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 570,
+    "n_events": 1,
+    "total_residence_ns": 0.006000000017888434,
+    "mean_event_ns": 0.006000000017888434,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.006000000017888434,
+        "duration_ns": 0.006000000017888434
+      }
+    ]
+  },
+  {
+    "fragment_id": 657,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 668,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 678,
+    "n_events": 1,
+    "total_residence_ns": 0.002000000005962812,
+    "mean_event_ns": 0.002000000005962812,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.006000000017888434,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.002000000005962812
+      }
+    ]
+  },
+  {
+    "fragment_id": 695,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 697,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 746,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 756,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 760,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 852,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 864,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 879,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 885,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 890,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 905,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 934,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  },
+  {
+    "fragment_id": 951,
+    "n_events": 1,
+    "total_residence_ns": 0.003000000008944217,
+    "mean_event_ns": 0.003000000008944217,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.005000000014907029,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.003000000008944217
+      }
+    ]
+  },
+  {
+    "fragment_id": 958,
+    "n_events": 1,
+    "total_residence_ns": 0.008000000023851246,
+    "mean_event_ns": 0.008000000023851246,
+    "events": [
+      {
+        "event_id": 0,
+        "start_time_ns": 0.0,
+        "end_time_ns": 0.008000000023851246,
+        "duration_ns": 0.008000000023851246
+      }
+    ]
+  }
+]
