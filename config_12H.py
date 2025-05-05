@@ -9,11 +9,11 @@ ANALYSIS_PARAMETERS = {
         # Base directory for input files (e.g., PSF, DCD)
         "base_input_dir": "data",
         # Base directory for all output files
-        "base_output_dir": "output/4H-50ns",
+        "base_output_dir": "output/12H-50ns",
 
         # Input file paths relative to base_input_dir
-        "psf_file": "4H/4HPt.psf", # Pointing to data/short/0HPt.psf
-        "dcd_file": "4H/out_eq_4H.dcd", # Pointing to data/short/Pt+0HNEC.dcd
+        "psf_file": "12H/12HPt.psf", # Pointing to data/short/0HPt.psf
+        "dcd_file": "12H/out_eq_12H.dcd", # Pointing to data/short/Pt+0HNEC.dcd
     },      
     "simulation_info": {
         # Number of MD integration steps between saved frames

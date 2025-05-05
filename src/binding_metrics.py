@@ -86,12 +86,45 @@ def main():
     df.rename(columns={'dominant_facet': 'facet'}, inplace=True)
 
 
-    # Simulation time (ns)
-    T_sim_row = props.loc[props['property'] == 'total_time_ns', 'value']
-    if T_sim_row.empty:
-        raise ValueError("Could not find 'total_time_ns' in properties CSV.")
-    T_sim = float(T_sim_row.iloc[0])
-    print(f"Total simulation time: {T_sim:.3f} ns")
+    # Simulation time (ns) for the processed range
+    # The simulation_info.csv now has a 'scope' column ('full' or 'range')
+    # Find the row where 'property' is 'scope' and 'value' is 'range'
+    range_scope_row = props.loc[(props['property'] == 'scope') & (props['value'] == 'range')]
+
+    if range_scope_row.empty:
+        # Fallback logic similar to the original code
+        print("Warning: Could not find 'range' scope in properties CSV. Falling back to 'full' scope.")
+        full_scope_row = props.loc[(props['property'] == 'scope') & (props['value'] == 'full')]
+        if full_scope_row.empty:
+             print("Warning: Could not find 'full' scope. Attempting to find 'total_time_ns' without scope.")
+             total_time_row = props.loc[props['property'] == 'total_time_ns']
+             if total_time_row.empty:
+                 raise ValueError("Could not find 'total_time_ns' in properties CSV in any scope.")
+             T_sim = float(total_time_row['value'].iloc[0])
+        else:
+            # Find the row where 'property' is 'total_time_ns' within the 'full' scope
+            full_scope_index = full_scope_row.index[0]
+            total_time_row = None
+            for i in range(full_scope_index, len(props)):
+                if props.loc[i, 'property'] == 'total_time_ns':
+                    total_time_row = props.loc[i]
+                    break
+            if total_time_row is None:
+                 raise ValueError("Could not find 'total_time_ns' property for the 'full' scope in simulation_info.csv")
+            T_sim = float(total_time_row['value'])
+    else:
+        # Find the row where 'property' is 'total_time_ns' within the 'range' scope
+        range_scope_index = range_scope_row.index[0]
+        total_time_row = None
+        for i in range(range_scope_index, len(props)):
+            if props.loc[i, 'property'] == 'total_time_ns':
+                total_time_row = props.loc[i]
+                break
+        if total_time_row is None:
+             raise ValueError("Could not find 'total_time_ns' property for the 'range' scope in simulation_info.csv")
+        T_sim = float(total_time_row['value'])
+
+    print(f"Total simulation time for processed range: {T_sim:.3f} ns")
 
     # Per-molecule stats
     # Filter out fragments that didn't merge with classification data if necessary

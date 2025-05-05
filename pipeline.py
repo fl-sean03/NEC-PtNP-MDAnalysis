@@ -24,11 +24,23 @@ def run_command(command, cwd=None):
 def main():
     parser = argparse.ArgumentParser(description="Run the molecular dynamics analysis pipeline.")
     # For simplicity, initially hardcode using the default config.py
-    # parser.add_argument("--config", default="config.py", help="Path to the configuration file.")
+    parser.add_argument("--config", default="config.py", help="Path to the configuration file.")
     args = parser.parse_args()
 
     # Load configuration
-    config = AnalysisConfig()
+    # Dynamically import the configuration module
+    config_path = args.config
+    config_dir = os.path.dirname(config_path)
+    config_module_name = os.path.basename(config_path).replace('.py', '')
+
+    # Add the config directory to sys.path to allow importing
+    sys.path.insert(0, config_dir)
+    try:
+        config_module = __import__(config_module_name)
+        config = config_module.AnalysisConfig()
+    finally:
+        # Remove the config directory from sys.path
+        sys.path.pop(0)
     print("Loaded configuration.")
 
     # Define the steps and their corresponding done files
@@ -43,7 +55,12 @@ def main():
                 "--dcd", config.dcd_file,
                 "--steps-per-frame", str(config.steps_per_frame),
                 "--output-dir", config.sim_info_output_dir
-            ]
+            ],
+           "optional_args": [
+               ("start-frame", config.simulation_info_start_frame),
+               ("end-frame", config.simulation_info_end_frame),
+               ("timestep-fs", config.simulation_info_timestep_fs), # Add timestep-fs argument
+           ]
         },
         {
             "name": "Pt Classification",
@@ -59,9 +76,10 @@ def main():
                 "--nbins", str(config.pt_classification_nbins)
             ],
             "optional_args": [
-                ("frame_index", config.pt_classification_frame_index),
-                ("min_frame", config.pt_classification_min_frame),
-                ("max_frame", config.pt_classification_max_frame),
+                # Use the frame_index specified in the pt_classification config, defaulting to the middle frame if None
+                ("frame-index", config.pt_classification_frame_index),
+                ("min-frame", config.pt_classification_min_frame),
+                ("max-frame", config.pt_classification_max_frame),
                 ("use-cutoff", config.pt_classification_use_cutoff),
             ],
             "flag_args": [
@@ -82,6 +100,8 @@ def main():
             ],
             "optional_args": [
                ("frame_index", config.fragment_surface_analysis_frame_index),
+               ("start-frame", config.fragment_surface_analysis_start_frame),
+               ("end-frame", config.fragment_surface_analysis_end_frame),
             ],
             "list_args": [
                ("fragment-ids", config.fragment_surface_analysis_fragment_ids),

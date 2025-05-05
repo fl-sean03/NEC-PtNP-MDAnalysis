@@ -45,3 +45,16 @@ The logical flow of the pipeline will be:
 `simulation_info.py` -> `classify_pt_atoms.py` -> `fragment_surface_analysis.py` -> `filter_surface_fragments.py` -> `residence_event_analysis.py` -> `binding_metrics.py`
 
 Each script will take inputs and produce outputs that are then used by the next script in the sequence.
+
+## Specifying Frame Range for Analysis
+
+The pipeline supports analyzing a specific range of frames from the DCD trajectory by specifying optional `start_frame` and `end_frame` parameters in the `config.py` file. These parameters can be added to the configuration dictionaries for the `simulation_info` and `fragment_surface_analysis` steps.
+
+- `start_frame`: The 0-based index of the first frame to include in the analysis. If omitted or set to `None`, the analysis starts from the beginning of the trajectory.
+- `end_frame`: The 0-based index of the last frame to include in the analysis. If omitted or set to `None`, the analysis includes frames up to the end of the trajectory.
+
+When `start_frame` and/or `end_frame` are specified in `config.py`, the `pipeline.py` script will pass these values as `--start-frame` and `--end-frame` command-line arguments to `simulation_info.py` and `fragment_surface_analysis.py`.
+
+Additionally, if a `start_frame` is specified for the overall pipeline run (via the `simulation_info` configuration), `pipeline.py` will pass this value as the `--frame-index` argument to `classify_pt_atoms.py`. This ensures that the Pt classification step, which typically analyzes a single frame, uses the starting frame of the specified range.
+
+The checkpointing functionality in `fragment_surface_analysis.py` is integrated with the frame range selection. If you resume a run with a specified frame range, the script will resume processing from the last processed frame *within that specific range*. If a checkpoint exists from a run with a different or no frame range, the script will handle this appropriately, likely starting from the beginning of the newly specified range.

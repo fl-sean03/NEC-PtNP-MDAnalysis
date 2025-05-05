@@ -65,6 +65,14 @@ def main():
         "--all-atoms", action="store_true",
         help="Save data for all NEC atoms; default is only the closest per fragment."
     )
+    parser.add_argument(
+        "--start-frame", type=int, default=None,
+        help="Optional start frame for analysis (0-based index, None for beginning)."
+    )
+    parser.add_argument(
+        "--end-frame", type=int, default=None,
+        help="Optional end frame for analysis (0-based index, None for end)."
+    )
     args = parser.parse_args()
 
     def vprint(msg):

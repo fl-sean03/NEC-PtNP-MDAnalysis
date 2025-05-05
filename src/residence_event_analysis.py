@@ -217,12 +217,83 @@ def main():
 
     # Load simulation info (needed regardless of checkpoint)
     with open(args.sim_info_json) as f:
-        sim = json.load(f)
-    # Build frame->time mapping in ns
-    n_frames = int(sim.get("n_frames"))
-    start_ns = float(sim.get("start_time_ns"))
-    dt_ns = float(sim.get("time_between_frames_ns"))
-    times = start_ns + np.arange(n_frames) * dt_ns
+        sim_info_data = json.load(f)
+
+    # Get time information for the processed range
+    # The simulation_info.json now contains 'full_simulation' and 'processed_range' keys
+    if "processed_range" not in sim_info_data:
+        raise KeyError("simulation_info.json does not contain the 'processed_range' key. Ensure simulation_info.py was run with a recent version.")
+
+    sim_range = sim_info_data["processed_range"]
+
+    # Build frame->time mapping in ns for the PROCESSED RANGE
+    # Note: n_frames here refers to the number of frames *in the processed range*
+    # The frame indices in surface_filtered.csv are still the original indices.
+    # We need to adjust the time mapping to align with the original frame indices
+    # but use the time information specific to the range.
+
+    n_frames_range = int(sim_range.get("n_frames"))
+    start_ns_range = float(sim_range.get("start_time_ns"))
+    dt_ns = float(sim_range.get("time_between_frames_ns"))
+    start_frame_index_range = int(sim_range.get("start_frame_index", 0)) # Get the original start frame index of the range
+
+    # The times array should map original frame indices within the range to their times.
+    # The frames in df['frame_index'] are the original frame indices.
+    # We need a time array that covers the full original range of frames,
+    # but with times calculated based on the range's start time and dt.
+    # Let's get the full simulation info to know the total number of frames for the time array size.
+    if "full_simulation" not in sim_info_data:
+         raise KeyError("simulation_info.json does not contain the 'full_simulation' key.")
+    sim_full = sim_info_data["full_simulation"]
+    n_frames_full = int(sim_full.get("n_frames"))
+
+    # Create a time array for the full simulation length, but calculate times based on the range's dt
+    # The time for frame `i` (original index) is `start_ns_range + (i - start_frame_index_range) * dt_ns`
+    # This assumes the time_between_frames_ns is constant across the full trajectory.
+    # This approach ensures that the times array aligns with the original frame indices in surface_filtered.csv.
+    times = np.zeros(n_frames_full)
+    # Only calculate times for the frames within the processed range to avoid issues with indices outside the range
+    # The frames in df['frame_index'] will be within the original range [start_frame_index_range, start_frame_index_range + n_frames_range - 1]
+    # Let's create the times array only for the frames present in the filtered CSV to be safe.
+    # Or, create the full time array but ensure calculations use the correct start time and dt.
+
+    # Let's create the time array for the full simulation length, but calculate times relative to the start of the range.
+    # This way, the index `i` in the `times` array corresponds to the original frame index `i`.
+    # The time for original frame index `i` is `start_ns_range + (i - start_frame_index_range) * dt_ns`.
+    # This is only valid for frames within the processed range.
+    # We need to ensure that when process_fragment is called, it only considers frames within the processed range.
+    # The df passed to process_fragment should already be filtered by the pipeline based on the range.
+    # However, the `on_series` is created based on `range(n_frames)`, where `n_frames` is currently the full number of frames.
+    # This needs to be `n_frames_full` to align with the original frame indices in `df`.
+    # The `times` array should also be indexed by original frame index.
+
+    # Let's recalculate the `times` array to cover the full range of original frame indices,
+    # but with times relative to the start of the processed range.
+    # The time for original frame index `i` is `start_ns_range + (i - start_frame_index_range) * dt_ns`.
+    # This is only meaningful for frames `i` where `start_frame_index_range <= i < start_frame_index_range + n_frames_range`.
+    # For frames outside this range, the time calculation might be incorrect, but those frames shouldn't be in df anyway.
+
+    # Let's create the times array for the full simulation length, indexed by original frame index.
+    times = np.array([start_ns_range + (i - start_frame_index_range) * dt_ns for i in range(n_frames_full)])
+
+    # The process_fragment function uses `range(n_frames)` to create `on_series`.
+    # This `n_frames` should be `n_frames_full` to match the original frame indices in `df`.
+    # The `times` array is indexed by original frame index.
+    # The `df` contains original frame indices.
+    # This seems consistent. The key is that `times` is indexed by original frame index,
+    # and the times themselves are calculated based on the range's start time and dt.
+    # The `on_series` should be based on the full range of original frame indices to correctly
+    # represent the presence/absence of the fragment across the *entire* original trajectory,
+    # even though `df` only contains data for frames within the processed range.
+    # This is because the gap merging logic needs to consider frames outside the processed range
+    # if they are within the `max_off_time` gap.
+
+    # Let's keep n_frames as n_frames_full for the on_series creation.
+    n_frames = n_frames_full # Use full number of frames for on_series indexing
+
+    # The times array is correctly indexed by original frame index.
+    # The times themselves are relative to the start of the processed range.
+    # This seems correct for calculating durations and event times within the processed range.
 
     # Load filtered data (needed regardless of checkpoint for processing)
     df = pd.read_csv(args.filtered_csv)
@@ -231,14 +302,27 @@ def main():
     # Create a copy as we will modify unprocessed_fragment_ids during iteration
     fragments_to_process_this_run = list(unprocessed_fragment_ids)
 
+    # Filter the dataframe to only include fragments that need processing in this run
+    df_to_process = df[df['fragment_id'].isin(fragments_to_process_this_run)].copy()
+
+    # Ensure the frame indices in the filtered dataframe are within the expected range
+    # This is a sanity check, the pipeline should handle this filtering.
+    # df_to_process = df_to_process[(df_to_process['frame_index'] >= start_frame_index_range) &
+    #                               (df_to_process['frame_index'] < start_frame_index_range + n_frames_range)].copy()
+    # No, the df should contain original frame indices within the processed range.
+    # The filtering should happen upstream in filter_surface_fragments.py or pipeline.py.
+    # Let's assume df contains the correct frames based on the range.
+
+    fragments_processed_this_run = 0
+
     fragments_processed_this_run = 0
 
     # Processing Loop
     for frag in fragments_to_process_this_run:
         print(f"Processing fragment {frag}...")
 
-        # Process the fragment
-        frag_events, frag_summary = process_fragment(frag, df, times, args, n_frames)
+        # Process the fragment using the filtered dataframe and the full times array
+        frag_events, frag_summary = process_fragment(frag, df_to_process, times, args, n_frames)
 
         # Append results to processed lists
         processed_events.extend(frag_events)

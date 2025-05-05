@@ -9,11 +9,11 @@ ANALYSIS_PARAMETERS = {
         # Base directory for input files (e.g., PSF, DCD)
         "base_input_dir": "data",
         # Base directory for all output files
-        "base_output_dir": "output/4H-50ns",
+        "base_output_dir": "output/8H-50ns",
 
         # Input file paths relative to base_input_dir
-        "psf_file": "4H/4HPt.psf", # Pointing to data/short/0HPt.psf
-        "dcd_file": "4H/out_eq_4H.dcd", # Pointing to data/short/Pt+0HNEC.dcd
+        "psf_file": "8H/8HPt.psf", # Pointing to data/short/0HPt.psf
+        "dcd_file": "8H/out_eq_8H.dcd", # Pointing to data/short/Pt+0HNEC.dcd
     },      
     "simulation_info": {
         # Number of MD integration steps between saved frames
@@ -27,7 +27,7 @@ ANALYSIS_PARAMETERS = {
     },
     "pt_classification": {
         # Prefix for output file names
-        "prefix": "0HPt",
+        "prefix": "8HPt",
         # Single frame to analyze (use None for middle frame)
         "frame_index": None,
         # Start frame for RDF averaging (use None to start from beginning)

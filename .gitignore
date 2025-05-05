@@ -1,5 +1,6 @@
 # Ignore output and data directories
 outputs/
+output/
 data/
 
 # Ignore Python cache and VS Code settings

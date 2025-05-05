@@ -9,21 +9,19 @@ ANALYSIS_PARAMETERS = {
         # Base directory for input files (e.g., PSF, DCD)
         "base_input_dir": "data",
         # Base directory for all output files
-        "base_output_dir": "output/4H-50ns",
+        "base_output_dir": "output/test_range",
 
         # Input file paths relative to base_input_dir
-        "psf_file": "4H/4HPt.psf", # Pointing to data/short/0HPt.psf
-        "dcd_file": "4H/out_eq_4H.dcd", # Pointing to data/short/Pt+0HNEC.dcd
-    },      
+        "psf_file": "short/0HPt.psf", # Pointing to data/short/0HPt.psf
+        "dcd_file": "short/Pt+0HNEC.dcd", # Pointing to data/short/Pt+0HNEC.dcd
+    },
     "simulation_info": {
         # Number of MD integration steps between saved frames
-        "steps_per_frame": 10000,
+        "steps_per_frame": 1000,
         # Optional start frame for analysis (0-based index, None for beginning)
-        "start_frame": 0,
+        "start_frame": 1,
         # Optional end frame for analysis (0-based index, None for end)
-        "end_frame": 5000,
-        # Optional manual integration timestep in femtoseconds (fs). If not provided, read from DCD header.
-        "timestep_fs": 1,
+        "end_frame": 7,
     },
     "pt_classification": {
         # Prefix for output file names
@@ -49,9 +47,9 @@ ANALYSIS_PARAMETERS = {
         # Frame index to analyze (single int, or None for all frames)
         "frame_index": None, # e.g., 0
         # Optional start frame for analysis (0-based index, None for beginning)
-        "start_frame": None,
+        "start_frame": 1,
         # Optional end frame for analysis (0-based index, None for end)
-        "end_frame": None,
+        "end_frame": 7,
         # Enable verbose output to terminal (True/False)
         "verbose": False,
         # Save data for all NEC atoms; default is only the closest per fragment (True/False)
@@ -63,9 +61,9 @@ ANALYSIS_PARAMETERS = {
     },
     "residence_event_analysis": {
         # Minimum contiguous residence time (ns) to count as an event
-        "min_res_time": 0.1, # Reduced minimum residence time
+        "min_res_time": 0.001, # Reduced minimum residence time
         # Maximum off-surface gap (ns) to merge adjacent events
-        "max_off_time": 0.2, # Increased maximum off-surface time
+        "max_off_time": 1.0, # Increased maximum off-surface time
     },
     "binding_metrics": {
         # Binding metrics parameters are derived from inputs; no specific params here yet.
@@ -105,7 +103,6 @@ class AnalysisConfig:
         self.steps_per_frame = self.params["simulation_info"]["steps_per_frame"]
         self.simulation_info_start_frame = self.params["simulation_info"].get("start_frame", None)
         self.simulation_info_end_frame = self.params["simulation_info"].get("end_frame", None)
-        self.simulation_info_timestep_fs = self.params["simulation_info"].get("timestep_fs", None)
 
         # --- Pt Classification Parameters ---
         self.pt_classification_prefix = self.params["pt_classification"]["prefix"]
