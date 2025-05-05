@@ -22,6 +22,9 @@ python binding_metrics.py \\
 *   `--properties_csv` (required): Path to the `simulation_info.csv` file containing simulation properties, including total simulation time.
 *   `--output_molecule_csv` (optional, default: `molecule_results.csv`): Output path for the CSV file containing per-molecule binding metrics.
 *   `--output_facet_csv` (optional, default: `facet_results.csv`): Output path for the CSV file containing per-facet binding metrics.
+*   `--analysis-start-frame` (optional): Start frame index (inclusive) for the analysis window. If provided, `--analysis-end-frame` and `--min-res-time` are required.
+*   `--analysis-end-frame` (optional): End frame index (exclusive) for the analysis window. If provided, `--analysis-start-frame` and `--min-res-time` are required.
+*   `--min-res-time` (optional): Minimum residence time (in ns) threshold used in residence_event_analysis. Required if timeframe filtering is active.
 
 ## Outputs
 
@@ -36,3 +39,14 @@ The script generates two CSV files:
 *   `T_off_ns`: Total simulation time minus total residence time.
 *   `K_D`: Calculated as `T_off_ns / T_on_ns`.
 *   `DeltaG_kJ_per_mol`: Calculated using the formula `R * T * ln(K_D)`, where R is the ideal gas constant (8.314 J/(mol·K)) and T is the temperature (hardcoded as 453.0 K in the script). The result is converted to kJ/mol.
+
+## Timeframe-Specific Analysis
+
+When `--analysis-start-frame` and `--analysis-end-frame` are provided, the script will perform binding metrics calculations specifically within this frame range.
+
+1.  **Event Filtering:** Only residence events that overlap with the specified frame range `[analysis-start-frame, analysis-end-frame)` are considered. An event is included if its start frame is before the analysis end frame AND its end frame is after the analysis start frame.
+2.  **Duration Adjustment:** For events that overlap the frame range boundaries, their durations are adjusted based on the frames spent within the specified range. This adjusted duration in frames is then converted to nanoseconds using the `time_per_frame_ns` obtained from `simulation_info.json`.
+3.  **Minimum Residence Time Check:** After duration adjustment, events whose *adjusted* duration (in ns) falls below the value provided by `--min-res-time` are excluded from calculations.
+4.  **Effective Simulation Time:** The total duration of the specified analysis frame range (`analysis-end-frame - analysis-start-frame`) is calculated in frames and then converted to nanoseconds using `time_per_frame_ns`. This value is used as the effective simulation time (`T_sim`) for calculating metrics like `T_off_ns` and `K_D`.
+
+This allows for analyzing binding behavior within specific time periods without re-running the entire pipeline.

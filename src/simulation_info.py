@@ -196,8 +196,8 @@ def main():
     }
 
     info_range = {
-        "start_frame_index": start_frame, # Original requested start frame
-        "end_frame_index": end_frame,     # Original requested end frame
+        "start_frame_index": actual_start_frame_index, # Actual start frame index in full trajectory
+        "end_frame_index": actual_end_frame_index,     # Actual end frame index in full trajectory
         "n_frames": n_frames_range,
         "start_time_ns": start_ns_range,
         "end_time_ns": end_ns_range,

@@ -145,7 +145,12 @@ def main():
                 "--filtered_surface_csv", config.surface_filtered_csv, # Changed to use filtered surface CSV
                 "--simulation_properties_csv", config.sim_info_csv,
                 "--output_molecule_csv", config.binding_metrics_molecule_csv,
-                "--output_facet_csv", config.binding_metrics_facet_csv
+                "--output_facet_csv", config.binding_metrics_facet_csv,
+                "--min-res-time", str(config.residence_event_analysis_min_res_time)
+            ],
+            "optional_args": [
+                ("analysis-start-frame", config.binding_metrics_analysis_start_frame),
+                ("analysis-end-frame", config.binding_metrics_analysis_end_frame),
             ]
         }
     ]

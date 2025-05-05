@@ -74,8 +74,8 @@ def load_checkpoint(file_path):
 # Define checkpoint save interval (e.g., every 10 fragments)
 SAVE_INTERVAL = 10
 
-def process_fragment(frag, df, times, args, n_frames):
-    """Processes a single fragment to find residence events."""
+def process_fragment(frag, df, times, args, n_frames, range_start_time_ns, range_end_time_ns, start_frame_index_range, dt_ns):
+    """Processes a single fragment to find residence events, clipping to the processed range."""
     # Boolean on/off series over all frames
     on_frames = set(df.loc[df['fragment_id']==frag, 'frame_index'])
     on_series = np.array([i in on_frames for i in range(n_frames)], dtype=bool)
@@ -120,21 +120,43 @@ def process_fragment(frag, df, times, args, n_frames):
             else:
                 merged.append(run.copy())
 
-    # Record events for this fragment
+    # Record events for this fragment, clipping to the processed range
     frag_events = []
     for eid, run in enumerate(merged):
-        evt = {
-            'fragment_id': frag,
-            'event_id': eid,
-            'start_frame': int(run['start']),
-            'end_frame': int(run['end']),
-            'start_time_ns': float(run['start_ns']),
-            'end_time_ns': float(run['end_ns']),
-            'duration_ns': float(run['dur_ns'])
-        }
-        frag_events.append(evt)
+        # Clip event times to the processed range boundaries
+        clipped_start_ns = max(run['start_ns'], range_start_time_ns)
+        clipped_end_ns = min(run['end_ns'], range_end_time_ns)
 
-    # Summarize for this fragment
+        # Calculate clipped duration
+        clipped_duration_ns = clipped_end_ns - clipped_start_ns
+
+        # Only include event if it has a positive duration within the range
+        if clipped_duration_ns > 0:
+            # Calculate clipped start and end frame indices based on clipped times
+            # frame_index = start_frame_index_range + (time - range_start_time_ns) / dt_ns
+            # Use round() to handle potential floating point inaccuracies when converting back to frame index.
+            clipped_start_frame = int(round(start_frame_index_range + (clipped_start_ns - range_start_time_ns) / dt_ns))
+            clipped_end_frame = int(round(start_frame_index_range + (clipped_end_ns - range_start_time_ns) / dt_ns))
+
+            # Ensure clipped frames are within the original range boundaries of the event
+            # This is a sanity check, clipping times should result in frames within or equal to original event frames.
+            # Also ensure frames are within the overall simulation bounds (0 to n_frames-1)
+            clipped_start_frame = max(clipped_start_frame, run['start'], 0)
+            clipped_end_frame = min(clipped_end_frame, run['end'], n_frames - 1)
+
+
+            evt = {
+                'fragment_id': frag,
+                'event_id': eid,
+                'start_frame': clipped_start_frame,
+                'end_frame': clipped_end_frame,
+                'start_time_ns': clipped_start_ns,
+                'end_time_ns': clipped_end_ns,
+                'duration_ns': clipped_duration_ns
+            }
+            frag_events.append(evt)
+
+    # Summarize for this fragment using the clipped events
     durations = [e['duration_ns'] for e in frag_events]
     if durations:
         frag_summary = {
@@ -237,6 +259,13 @@ def main():
     dt_ns = float(sim_range.get("time_between_frames_ns"))
     start_frame_index_range = int(sim_range.get("start_frame_index", 0)) # Get the original start frame index of the range
 
+    # Calculate the end time of the processed range
+    # The end time corresponds to the time of the last frame in the range.
+    # The last frame index in the range is start_frame_index_range + n_frames_range - 1
+    # The time for this frame is start_ns_range + ((start_frame_index_range + n_frames_range - 1) - start_frame_index_range) * dt_ns
+    # which simplifies to start_ns_range + (n_frames_range - 1) * dt_ns
+    range_end_time_ns = start_ns_range + (n_frames_range - 1) * dt_ns
+
     # The times array should map original frame indices within the range to their times.
     # The frames in df['frame_index'] are the original frame indices.
     # We need a time array that covers the full original range of frames,
@@ -321,8 +350,12 @@ def main():
     for frag in fragments_to_process_this_run:
         print(f"Processing fragment {frag}...")
 
-        # Process the fragment using the filtered dataframe and the full times array
-        frag_events, frag_summary = process_fragment(frag, df_to_process, times, args, n_frames)
+        # Process the fragment using the filtered dataframe and the full times array,
+        # passing the processed range boundaries and time step for clipping.
+        frag_events, frag_summary = process_fragment(
+            frag, df_to_process, times, args, n_frames,
+            start_ns_range, range_end_time_ns, start_frame_index_range, dt_ns
+        )
 
         # Append results to processed lists
         processed_events.extend(frag_events)
