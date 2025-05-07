@@ -8,7 +8,7 @@ Understanding the binding behavior and interactions of molecules with nanopartic
 
 ## How it Works
 
-The analysis is performed through a series of Python scripts located in the `src/` directory, orchestrated by a main `pipeline.py` script. The workflow follows these main steps:
+The analysis is performed through a series of Python scripts located in the `src/` directory, orchestrated by pipeline scripts in the workspace root. The workflow follows these main steps:
 
 1.  **Simulation Information:** Extracts basic metadata from the simulation trajectory and structure files.
 2.  **Pt Atom Classification:** Classifies the Pt atoms on the nanoparticle surface based on their coordination environment (e.g., bulk, facet, edge, vertex). This step can use an automatically determined cutoff from the Radial Distribution Function (RDF) or a user-specified value.
@@ -16,45 +16,52 @@ The analysis is performed through a series of Python scripts located in the `src
 4.  **Filter Surface Fragments:** Filters the surface analysis results based on a distance cutoff to identify fragments and atoms that are considered "on the surface".
 5.  **Residence Event Analysis:** Quantifies how long NEC fragments reside on the Pt surface based on the filtered surface data and defined time criteria.
 6.  **Binding Metrics:** Computes binding statistics such as mean residence time, dissociation constant (K_D), and free energy of binding (ΔG), aggregated per molecule and per Pt facet type.
+7.  **Iterative Binding Metrics (in `pipeline_iterative_binding.py`)**: Runs the binding metrics calculation iteratively over increasing time windows to assess convergence.
+8.  **Plot Facet Metrics (in `pipeline_iterative_binding.py`)**: Generates plots of the iterative binding metrics.
 
-The `pipeline.py` script automates the execution of these steps in the correct order, ensuring that the output of one step serves as the input for the next.
+The pipeline scripts automate the execution of these steps in the correct order, ensuring that the output of one step serves as the input for the next.
 
 ## Project Structure
 
+*   `configs/`: Contains configuration files for the analysis pipelines.
 *   `data/`: Contains example input simulation files (PSF and DCD).
 *   `src/`: Contains the core Python scripts for each analysis step.
 *   `output/`: Default directory for saving all generated analysis results (CSV, JSON, Markdown, plots).
-*   `docs/scripts/`: Contains documentation files (in Markdown) for each script and the overall pipeline.
+*   `docs/`: Contains documentation files (in Markdown) for scripts and the overall pipeline.
 *   `sample_scripts/`: Contains additional example scripts, potentially for specific analysis tasks or visualizations.
-*   `config.py`: Configuration file to set input/output paths and parameters for the pipeline.
-*   `pipeline.py`: The main script to run the entire analysis workflow.
+*   `pipeline.py`: The main script to run the standard analysis workflow.
+*   `pipeline_iterative_binding.py`: A pipeline script to run the analysis workflow including iterative binding metrics and plotting.
 *   `README.md`: This file.
 
 ## Getting Started
 
-1.  Ensure you have the necessary dependencies installed (e.g., MDAnalysis, pandas, numpy, matplotlib, scipy). A `requirements.txt` file could be added for easier environment setup.
-2.  Place your simulation PSF and DCD files in the `data/` directory or update the paths in `config.py`.
-3.  Modify the `config.py` file to adjust parameters for the analysis steps and specify output locations.
-4.  Run the pipeline from the root directory of the project:
+1.  Ensure you have the necessary dependencies installed (e.g., MDAnalysis, pandas, numpy, matplotlib, scipy). A `requirements.txt` file is provided for easier environment setup.
+2.  Place your simulation PSF and DCD files in the `data/` directory or update the paths in the desired configuration file in the `configs/` directory.
+3.  Modify the configuration file in the `configs/` directory to adjust parameters for the analysis steps and specify output locations.
+4.  Run the desired pipeline script from the root directory of the project, specifying the configuration file:
 
     ```bash
-    python pipeline.py
+    python pipeline.py --config configs/config.py
+    # or for the iterative pipeline
+    python pipeline_iterative_binding.py --config configs/config_pipeline_iterative.py
     ```
 
 The script will execute the analysis and save the results in the specified output directory.
 
 ## Configuration
 
-The `config.py` file is the central place to configure the analysis pipeline. It uses a dictionary structure (`ANALYSIS_PARAMETERS`) to group parameters by the script they apply to. You can edit this file in any text editor to customize the input data, output locations, and analysis settings.
+Configuration files are located in the `configs/` directory. Each configuration file uses a dictionary structure (`ANALYSIS_PARAMETERS`) to group parameters by the script they apply to. You can edit these files in any text editor to customize the input data, output locations, and analysis settings.
 
 ## Documentation
 
-Detailed documentation for each individual script and the overall pipeline design can be found in the `docs/scripts/` directory.
+Detailed documentation for each individual script and the overall pipeline design can be found in the `docs/` directory.
 
-*   [`pipeline.md`](docs/scripts/pipeline.md): Documentation for the overall analysis pipeline.
-*   [`simulation_info.md`](docs/scripts/simulation_info.md): Documentation for the simulation information script.
-*   [`classify_pt_atoms.md`](docs/scripts/classify_pt_atoms.md): Documentation for the Pt atom classification script.
-*   [`fragment_surface_analysis.md`](docs/scripts/fragment_surface_analysis.md): Documentation for the fragment surface analysis script.
-*   [`filter_surface_fragments.md`](docs/scripts/filter_surface_fragments.md): Documentation for the filter surface fragments script.
-*   [`residence_event_analysis.md`](docs/scripts/residence_event_analysis.md): Documentation for the residence event analysis script.
-*   [`binding_metrics.md`](docs/scripts/binding_metrics.md): Documentation for the binding metrics script.
+*   [`docs/scripts/pipeline.md`](docs/scripts/pipeline.md): Documentation for the standard analysis pipeline.
+*   [`docs/iterative_binding_metrics_pipeline.md`](docs/iterative_binding_metrics_pipeline.md): Documentation for the iterative binding metrics pipeline.
+*   [`docs/scripts/simulation_info.md`](docs/scripts/simulation_info.md): Documentation for the simulation information script.
+*   [`docs/scripts/classify_pt_atoms.md`](docs/scripts/classify_pt_atoms.md): Documentation for the Pt atom classification script.
+*   [`docs/scripts/fragment_surface_analysis.md`](docs/scripts/fragment_surface_analysis.md): Documentation for the fragment surface analysis script.
+*   [`docs/scripts/filter_surface_fragments.md`](docs/scripts/filter_surface_fragments.md): Documentation for the filter surface fragments script.
+*   [`docs/scripts/residence_event_analysis.md`](docs/scripts/residence_event_analysis.md): Documentation for the residence event analysis script.
+*   [`docs/scripts/binding_metrics.md`](docs/scripts/binding_metrics.md): Documentation for the binding metrics script.
+*   [`docs/scripts/simulation_info.md`](docs/scripts/simulation_info.md): Documentation for the simulation information script.

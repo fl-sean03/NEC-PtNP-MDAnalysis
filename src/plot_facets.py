@@ -55,7 +55,8 @@ def main():
         plt.close(fig)
 
     # Generate combined plot
-    fig, axes = plt.subplots(3, 1, figsize=(8, 18), sharex=True)
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6), sharex=True) # Change to 1 row, 3 columns and adjust figsize
+    # axes is now a 1D array, so zip directly with metrics.items()
     for ax, (col, (ylabel, _)) in zip(axes, metrics.items()):
         for facet in df["facet"].unique():
             subset = df[df["facet"] == facet]

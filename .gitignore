@@ -6,3 +6,7 @@ data/
 # Ignore Python cache and VS Code settings
 __pycache__/
 .vscode/
+
+
+# Ignore anything with "roo" in the name
+*roo*
